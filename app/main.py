@@ -9,3 +9,5 @@ app.include_router(webhook_router)
 def root():
     return {"message": "Reviewer bot is running 🚀"}
 
+def add(a, b):
+  return a+b
